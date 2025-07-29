@@ -31,8 +31,8 @@ const Navbar = () => {
 
   return (
     <nav style={navStyle}>
-      {["/", "/memories", "/letter", "/final"].map((path, index) => {
-        const label = ["Home", "Memories", "Letter", "Final"][index];
+      {["/", "/memories", "/letter", "/final" , "/games"].map((path, index) => {
+        const label = ["Home", "Memories", "Letter", "Final" , "Game"][index];
         return (
           <Link
             key={path}
